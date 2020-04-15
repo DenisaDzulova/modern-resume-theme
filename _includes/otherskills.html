@@ -1,4 +1,4 @@
-<div class="container other_skills-container">
+<div class="container otherskills-container">
   <h3>{{ site.otherskills_title | default: "Other skills" }}</h3>
   {% for otherskills in site.data.otherskills %}
     {% include {{ otherskills.layout | default: 'left' | append: ".html" }} item=otherskills %}
