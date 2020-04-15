@@ -16,7 +16,7 @@
 
       {%- include about.html -%}
 
-      {%- if site.data.currentposition.size > 0 -%}
+      {%- if site.data.current_position.size > 0 -%}
         {%- include current_position.html -%}
       {%- endif -%}
       
@@ -32,16 +32,12 @@
         {%- include projects.html -%}
       {%- endif -%}
 
-      {%- if site.data.scientificskills.size > 0 -%}
+      {%- if site.data.scientific_skills.size > 0 -%}
         {%- include scientific_skills.html -%}
       {%- endif -%}
    
-      {%- if site.data.otherskills.size > 0 -%}
+      {%- if site.data.other_skills.size > 0 -%}
         {%- include other_skills.html -%}
-      {%- endif -%}
-      
-      {%- if site.data.awards.size > 0 -%}
-        {%- include awards.html -%}
       {%- endif -%}
 
       {%- if site.data.awards.size > 0 -%}
