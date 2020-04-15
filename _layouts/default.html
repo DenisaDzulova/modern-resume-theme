@@ -16,38 +16,18 @@
 
       {%- include about.html -%}
 
-      {%- if site.data.current_position.size > 0 -%}
-        {%- include current_position.html -%}
-      {%- endif -%}
-      
-      {%- if site.data.education.size > 0 -%}
-        {%- include education.html -%}
-      {%- endif -%}
-      
-      {%- if site.data.experience.size > 0 -%}
-        {%- include experience.html -%}
-      {%- endif -%}
-
       {%- if site.data.projects.size > 0 -%}
         {%- include projects.html -%}
       {%- endif -%}
 
-      {%- if site.data.scientific_skills.size > 0 -%}
-        {%- include scientific_skills.html -%}
-      {%- endif -%}
-   
-      {%- if site.data.other_skills.size > 0 -%}
-        {%- include other_skills.html -%}
+      {%- if site.data.experience.size > 0 -%}
+        {%- include experience.html -%}
       {%- endif -%}
 
-      {%- if site.data.awards.size > 0 -%}
-        {%- include awards.html -%}
+      {%- if site.data.education.size > 0 -%}
+        {%- include education.html -%}
       {%- endif -%}
-    
-      {%- if site.data.publications.size > 0 -%}
-        {%- include publications.html -%}
-      {%- endif -%}
-      
+
       {%- if site.more_content -%}
         {%- include more.html -%}
       {%- endif -%}
