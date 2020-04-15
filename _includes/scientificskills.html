@@ -1,6 +1,0 @@
-<div class="container scientificskills-container">
-  <h3>{{ site.scientificskills_title | default: "Scientific skills" }}</h3>
-  {% for scientificskills in site.data.scientificskills %}
-    {% include {{ scientificskills.layout | default: 'left' | append: ".html" }} item=scientific_skills %}
-  {% endfor %}
-</div>
