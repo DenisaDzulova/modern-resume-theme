@@ -15,17 +15,9 @@
       {%- endif -%}
 
       {%- include about.html -%}
-            
-      {%- if site.data.otherskills.size > 0 -%}
-        {%- include otherskills.html -%}
-      {%- endif -%}
       
       {%- if site.data.current_position.size > 0 -%}
         {%- include current_position.html -%}
-      {%- endif -%}
-      
-      {%- if site.data.awards.size > 0 -%}
-        {%- include awards.html -%}
       {%- endif -%}
       
       {%- if site.data.education.size > 0 -%}
@@ -40,6 +32,14 @@
         {%- include experience.html -%}
       {%- endif -%}
 
+      {%- if site.data.awards.size > 0 -%}
+        {%- include awards.html -%}
+      {%- endif -%}
+      
+      {%- if site.data.otherskills.size > 0 -%}
+        {%- include otherskills.html -%}
+      {%- endif -%}
+      
       {%- if site.more_content -%}
         {%- include more.html -%}
       {%- endif -%}
