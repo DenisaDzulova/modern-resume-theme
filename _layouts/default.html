@@ -15,13 +15,9 @@
       {%- endif -%}
 
       {%- include about.html -%}
-
-      {%- if site.data.scientific_skills.size > 0 -%}
-        {%- include scientific_skills.html -%}
-      {%- endif -%}
       
-      {%- if site.data.other_skills.size > 0 -%}
-        {%- include other_skills.html -%}
+      {%- if site.data.otherskills.size > 0 -%}
+        {%- include otherskills.html -%}
       {%- endif -%}
       
       {%- if site.data.current_position.size > 0 -%}
