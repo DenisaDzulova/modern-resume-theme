@@ -35,6 +35,10 @@
       {%- if site.data.otherskills.size > 0 -%}
         {%- include otherskills.html -%}
       {%- endif -%}
+
+      {%- if site.data.publications.size > 0 -%}
+        {%- include publications.html -%}
+      {%- endif -%}
       
       {%- if site.more_content -%}
         {%- include more.html -%}
