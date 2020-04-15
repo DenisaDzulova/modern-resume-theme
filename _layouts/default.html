@@ -16,6 +16,10 @@
 
       {%- include about.html -%}
 
+      {%- if site.data.other_skills.size > 0 -%}
+        {%- include other_skills.html -%}
+      {%- endif -%}
+      
       {%- if site.data.current_position.size > 0 -%}
         {%- include current_position.html -%}
       {%- endif -%}
